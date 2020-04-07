@@ -1,3 +1,2 @@
-﻿  dice_game.cpp
-C:\Users\64451\Desktop\OOTPJ\DiceGame\dice_game.cpp(13,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+﻿  player.cpp
   DiceGame.vcxproj -> C:\Users\64451\Desktop\OOTPJ\DiceGame\Debug\DiceGame.exe

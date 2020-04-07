@@ -20,6 +20,10 @@ public:
 	{
 		return m_upVal;
 	}
+	void reset()
+	{
+		m_upVal = 0;
+	}
 };
 
 
