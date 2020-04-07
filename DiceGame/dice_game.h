@@ -3,6 +3,7 @@
 #define DICE_GAME
 #include <string>
 #include <iostream>
+#include <list>
 using namespace std;
 
 unsigned int random(int x);
@@ -12,6 +13,7 @@ class CDiceGame
 private:
 	unsigned int m_firstRes;
 	unsigned int m_secondRes;
+	list<Player>m_playerList;
 	
 protected:
 	enum INFO_TYPE {COMMAND,START,ROLL,ROLL_RES1,ROLL_RES2,FINAL_RES,WIN,LOST,LEAVE,IMPROPER};
