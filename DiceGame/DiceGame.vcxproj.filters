@@ -26,5 +26,8 @@
     <ClInclude Include="dice_game.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="dice.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
