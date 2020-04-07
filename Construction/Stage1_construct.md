@@ -25,11 +25,10 @@
 - 类(可能有多个玩家或者骰子或者轮次)
 
   - Game
-    - 其实步骤可分给一下几类。将show_info的switch case都拆开
+    - 其实步骤可分给以下几类。将show_info的switch case都拆开。
 
   - player
-    - private member: <vector>roll_dice_result, game_state...
-    - 
+    - private member: <vector> roll_dice_result, game_state...
   - dice
     - roll
     - display?
