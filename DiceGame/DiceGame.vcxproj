@@ -139,6 +139,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="dice_game.cpp" />
+    <ClCompile Include="dice_game_platform.cpp" />
+    <ClCompile Include="game_table.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="player.cpp" />
     <ClCompile Include="strategy.cpp" />
@@ -146,6 +148,8 @@
   <ItemGroup>
     <ClInclude Include="dice.h" />
     <ClInclude Include="dice_game.h" />
+    <ClInclude Include="dice_game_platform.h" />
+    <ClInclude Include="game_table.h" />
     <ClInclude Include="player.h" />
     <ClInclude Include="strategy.h" />
   </ItemGroup>

@@ -27,6 +27,12 @@
     <ClCompile Include="strategy.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="dice_game_platform.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="game_table.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="dice_game.h">
@@ -39,6 +45,12 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="strategy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dice_game_platform.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="game_table.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

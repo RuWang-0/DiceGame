@@ -5,6 +5,7 @@ using std::cout;
 
 const unsigned CPlayer::WinVal = 7;
 const unsigned CPlayer::DiceNum = 2;
+unsigned CPlayer::undefined_name_num = 0;
 
 void CPlayer::playGame()
 {

@@ -2,6 +2,4 @@
 
 int main()
 {
-	auto game = CDiceGame();
-	game.startGame();
 }
