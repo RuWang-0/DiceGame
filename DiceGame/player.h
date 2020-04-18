@@ -39,6 +39,7 @@ protected:
 public:
 	CPlayer() : m_dices(DiceNum), m_isFinished(false), m_isWon(false),m_turn_round(0) ,m_curCommand(0){};
 	void playGame();
+	const vector<CDice>& getDices()const { return m_dices; }
 	
 };
 
