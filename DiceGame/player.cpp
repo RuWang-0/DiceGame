@@ -47,8 +47,8 @@ void CPlayer::showResult() {
     const string sRound = m_turn_round == 1 ? "first" : "second";
     unsigned sum = 0;
     for (auto dice : m_dices)
-        sum += dice.showVal();
-    cout << "The " << sRound << " dice rolling result is " << m_dices[m_turn_round-1].showVal()
+        sum += dice.getVal();
+    cout << "The " << sRound << " dice rolling result is " << m_dices[m_turn_round-1].getVal()
         << endl << endl;
     if (m_turn_round == 2)
         showFinal(sum);
