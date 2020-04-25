@@ -87,5 +87,4 @@ Player player2('B')
 
 ### 目前的状态：
 
-1. 类的基本设计有了，不过CPlayer的类要放到CDiceGame类里，CPlayer做成一个小类，可以同时放在C-S两端
-2. CDiceGame应该包含一个IGameStrategy，待补充
+1. 开发完成，没测试，没debug，没写UnitTest
