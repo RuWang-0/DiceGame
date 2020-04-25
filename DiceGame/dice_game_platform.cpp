@@ -15,3 +15,4 @@ shared_ptr<CPlayer> CDiceGamePlatform::regPlayer(string player_name)
 		return new_player;
 	return nullptr;
 }
+
