@@ -16,7 +16,7 @@ public:
 		m_upVal = random(6) + 1;
 		return m_upVal;
 	}
-	unsigned showVal()const
+	unsigned getVal()const
 	{
 		return m_upVal;
 	}

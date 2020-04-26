@@ -1,2 +1,105 @@
-﻿  player.cpp
-  DiceGame.vcxproj -> C:\Users\64451\Desktop\OOTPJ\DiceGame\Debug\DiceGame.exe
+﻿  dice_game.cpp
+C:\Users\64451\Desktop\OOTPJ\DiceGame\dice_game.cpp(13,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  dice_game_platform.cpp
+C:\Users\64451\Downloads\Improtant-Programs\Visual Studio\VC\Tools\MSVC\14.24.28314\include\xmemory(747,1): error C2528: “pointer”: 指向引用的指针非法
+C:\Users\64451\Downloads\Improtant-Programs\Visual Studio\VC\Tools\MSVC\14.24.28314\include\xmemory(634): message : 查看对正在编译的 类 模板 实例化“std::allocator<CPlayer &>”的引用
+C:\Users\64451\Downloads\Improtant-Programs\Visual Studio\VC\Tools\MSVC\14.24.28314\include\xmemory(690): message : 查看对正在编译的 类 模板 实例化“std::_Default_allocator_traits<_Alloc>”的引用
+          with
+          [
+              _Alloc=std::allocator<CPlayer &>
+          ]
+C:\Users\64451\Downloads\Improtant-Programs\Visual Studio\VC\Tools\MSVC\14.24.28314\include\xtree(835): message : 查看对正在编译的 类 模板 实例化“std::allocator_traits<std::allocator<CPlayer &>>”的引用
+C:\Users\64451\Downloads\Improtant-Programs\Visual Studio\VC\Tools\MSVC\14.24.28314\include\xtree(835): message : 查看对正在编译的 别名 模板 实例化“std::_Rebind_alloc_t<std::allocator<CPlayer &>,CPlayer&>”的引用
+C:\Users\64451\Downloads\Improtant-Programs\Visual Studio\VC\Tools\MSVC\14.24.28314\include\set(54): message : 查看对正在编译的 类 模板 实例化“std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>”的引用
+          with
+          [
+              _Kty=CPlayer &,
+              _Pr=std::less<CPlayer &>,
+              _Alloc=std::allocator<CPlayer &>
+          ]
+C:\Users\64451\Desktop\OOTPJ\DiceGame\dice_game_platform.h(12): message : 查看对正在编译的 类 模板 实例化“std::set<CPlayer &,std::less<CPlayer &>,std::allocator<CPlayer &>>”的引用
+C:\Users\64451\Downloads\Improtant-Programs\Visual Studio\VC\Tools\MSVC\14.24.28314\include\xmemory(748,1): error C2528: “const_pointer”: 指向引用的指针非法
+C:\Users\64451\Downloads\Improtant-Programs\Visual Studio\VC\Tools\MSVC\14.24.28314\include\xmemory(764,1): error C2528: “address”: 指向引用的指针非法
+C:\Users\64451\Downloads\Improtant-Programs\Visual Studio\VC\Tools\MSVC\14.24.28314\include\xmemory(768,1): error C2528: “address”: 指向引用的指针非法
+C:\Users\64451\Downloads\Improtant-Programs\Visual Studio\VC\Tools\MSVC\14.24.28314\include\xmemory(778,1): error C2528: “_Ptr”: 指向引用的指针非法
+C:\Users\64451\Downloads\Improtant-Programs\Visual Studio\VC\Tools\MSVC\14.24.28314\include\xmemory(783,1): error C2528: “allocate”: 指向引用的指针非法
+C:\Users\64451\Downloads\Improtant-Programs\Visual Studio\VC\Tools\MSVC\14.24.28314\include\xmemory(788,1): error C2528: “allocate”: 指向引用的指针非法
+C:\Users\64451\Downloads\Improtant-Programs\Visual Studio\VC\Tools\MSVC\14.24.28314\include\xmemory(636,1): error C2528: “abstract declarator”: 指向引用的指针非法
+C:\Users\64451\Downloads\Improtant-Programs\Visual Studio\VC\Tools\MSVC\14.24.28314\include\xmemory(637,1): error C2528: “abstract declarator”: 指向引用的指针非法
+C:\Users\64451\Downloads\Improtant-Programs\Visual Studio\VC\Tools\MSVC\14.24.28314\include\xmemory(655,1): error C2528: “<template-parameter>”: 指向引用的指针非法
+C:\Users\64451\Downloads\Improtant-Programs\Visual Studio\VC\Tools\MSVC\14.24.28314\include\xmemory(660,1): error C2528: “<template-parameter>”: 指向引用的指针非法
+C:\Users\64451\Downloads\Improtant-Programs\Visual Studio\VC\Tools\MSVC\14.24.28314\include\xtree(845,1): error C2528: “<template-parameter>”: 指向引用的指针非法
+C:\Users\64451\Downloads\Improtant-Programs\Visual Studio\VC\Tools\MSVC\14.24.28314\include\xtree(1341,1): error C2535: “std::pair<std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<CPlayer &>>>,bool> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(CPlayer &)”: 已经定义或声明成员函数
+          with
+          [
+              _Kty=CPlayer &,
+              _Pr=std::less<CPlayer &>,
+              _Alloc=std::allocator<CPlayer &>
+          ]
+C:\Users\64451\Downloads\Improtant-Programs\Visual Studio\VC\Tools\MSVC\14.24.28314\include\xtree(1330): message : 参见“std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert”的声明
+          with
+          [
+              _Kty=CPlayer &,
+              _Pr=std::less<CPlayer &>,
+              _Alloc=std::allocator<CPlayer &>
+          ]
+C:\Users\64451\Downloads\Improtant-Programs\Visual Studio\VC\Tools\MSVC\14.24.28314\include\xtree(1347,1): error C2535: “std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<CPlayer &>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(CPlayer &)”: 已经定义或声明成员函数
+          with
+          [
+              _Kty=CPlayer &,
+              _Pr=std::less<CPlayer &>,
+              _Alloc=std::allocator<CPlayer &>
+          ]
+C:\Users\64451\Downloads\Improtant-Programs\Visual Studio\VC\Tools\MSVC\14.24.28314\include\xtree(1336): message : 参见“std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert”的声明
+          with
+          [
+              _Kty=CPlayer &,
+              _Pr=std::less<CPlayer &>,
+              _Alloc=std::allocator<CPlayer &>
+          ]
+C:\Users\64451\Downloads\Improtant-Programs\Visual Studio\VC\Tools\MSVC\14.24.28314\include\xtree(1359,1): error C2535: “std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<CPlayer &>>> std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert(std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<CPlayer &>>>,CPlayer &)”: 已经定义或声明成员函数
+          with
+          [
+              _Kty=CPlayer &,
+              _Pr=std::less<CPlayer &>,
+              _Alloc=std::allocator<CPlayer &>
+          ]
+C:\Users\64451\Downloads\Improtant-Programs\Visual Studio\VC\Tools\MSVC\14.24.28314\include\xtree(1351): message : 参见“std::_Tree<std::_Tset_traits<_Kty,_Pr,_Alloc,false>>::insert”的声明
+          with
+          [
+              _Kty=CPlayer &,
+              _Pr=std::less<CPlayer &>,
+              _Alloc=std::allocator<CPlayer &>
+          ]
+C:\Users\64451\Downloads\Improtant-Programs\Visual Studio\VC\Tools\MSVC\14.24.28314\include\xmemory(732,1): error C2528: “abstract declarator”: 指向引用的指针非法
+C:\Users\64451\Downloads\Improtant-Programs\Visual Studio\VC\Tools\MSVC\14.24.28314\include\xtree(385): message : 查看对正在编译的 类 模板 实例化“std::_Simple_types<_Ty>”的引用
+          with
+          [
+              _Ty=CPlayer &
+          ]
+C:\Users\64451\Downloads\Improtant-Programs\Visual Studio\VC\Tools\MSVC\14.24.28314\include\xtree(422): message : 查看对正在编译的 类 模板 实例化“std::_Tree_simple_types<CPlayer &>”的引用
+C:\Users\64451\Downloads\Improtant-Programs\Visual Studio\VC\Tools\MSVC\14.24.28314\include\xmemory(1321): message : 查看对正在编译的 类 模板 实例化“std::_Tree_val<std::_Tree_simple_types<CPlayer &>>”的引用
+C:\Users\64451\Downloads\Improtant-Programs\Visual Studio\VC\Tools\MSVC\14.24.28314\include\xmemory(1321): message : 查看对正在编译的 类 模板 实例化“std::_Compressed_pair<std::allocator<std::_Tree_node<CPlayer &,std::_Default_allocator_traits<_Alloc>::void_pointer>>,std::_Tree_val<std::_Tree_simple_types<CPlayer &>>,true>”的引用
+          with
+          [
+              _Alloc=std::allocator<CPlayer &>
+          ]
+C:\Users\64451\Downloads\Improtant-Programs\Visual Studio\VC\Tools\MSVC\14.24.28314\include\xtree(2058): message : 查看对正在编译的 类 模板 实例化“std::_Compressed_pair<std::less<CPlayer &>,std::_Compressed_pair<std::allocator<std::_Tree_node<CPlayer &,std::_Default_allocator_traits<_Alloc>::void_pointer>>,std::_Tree_val<std::_Tree_simple_types<CPlayer &>>,true>,true>”的引用
+          with
+          [
+              _Alloc=std::allocator<CPlayer &>
+          ]
+C:\Users\64451\Downloads\Improtant-Programs\Visual Studio\VC\Tools\MSVC\14.24.28314\include\xmemory(733,1): error C2528: “abstract declarator”: 指向引用的指针非法
+C:\Users\64451\Downloads\Improtant-Programs\Visual Studio\VC\Tools\MSVC\14.24.28314\include\initializer_list(30,1): error C2528: “abstract declarator”: 指向引用的指针非法
+C:\Users\64451\Desktop\OOTPJ\DiceGame\dice_game_platform.h(25): message : 查看对正在编译的 类 模板 实例化“std::initializer_list<CPlayer &>”的引用
+C:\Users\64451\Downloads\Improtant-Programs\Visual Studio\VC\Tools\MSVC\14.24.28314\include\initializer_list(31,1): error C2528: “abstract declarator”: 指向引用的指针非法
+C:\Users\64451\Downloads\Improtant-Programs\Visual Studio\VC\Tools\MSVC\14.24.28314\include\initializer_list(35,1): error C2528: “_First_arg”: 指向引用的指针非法
+C:\Users\64451\Downloads\Improtant-Programs\Visual Studio\VC\Tools\MSVC\14.24.28314\include\initializer_list(35,1): error C2528: “_Last_arg”: 指向引用的指针非法
+C:\Users\64451\Downloads\Improtant-Programs\Visual Studio\VC\Tools\MSVC\14.24.28314\include\initializer_list(38,1): error C2528: “begin”: 指向引用的指针非法
+C:\Users\64451\Downloads\Improtant-Programs\Visual Studio\VC\Tools\MSVC\14.24.28314\include\initializer_list(42,1): error C2528: “end”: 指向引用的指针非法
+C:\Users\64451\Downloads\Improtant-Programs\Visual Studio\VC\Tools\MSVC\14.24.28314\include\initializer_list(51,1): error C2528: “_First”: 指向引用的指针非法
+C:\Users\64451\Downloads\Improtant-Programs\Visual Studio\VC\Tools\MSVC\14.24.28314\include\initializer_list(52,1): error C2528: “_Last”: 指向引用的指针非法
+  main.cpp
+  player.cpp
+  strategy.cpp
+  正在生成代码...

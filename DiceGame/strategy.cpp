@@ -1,23 +1,19 @@
 #include "strategy.h"
 
-EGameResult CAddRemaind6::judge(CPlayer& player1, CPlayer& player2)
+shared_ptr<CGameRes> CAddRemaind6::judge(CPlayer& player1, CPlayer& player2)
 {
 	unsigned res_player1 = calCredit(player1), res_player2 = calCredit(player2);
-	if (res_player1 < res_player2)
-		return LOST;
-	if (res_player1 > res_player2)
-		return WIN;
-	return DRAW;
+	shared_ptr<CGameRes>res(new CGameRes);
+	res->setRes(res_player1,res_player2);
+	return res;
 }
 
-EGameResult CMutRemaind6::judge(CPlayer& player1, CPlayer& player2)
+shared_ptr<CGameRes> CMutRemaind6::judge(CPlayer& player1, CPlayer& player2)
 {
 	unsigned res_player1 = calCredit(player1), res_player2 = calCredit(player2);
-	if (res_player1 < res_player2)
-		return LOST;
-	if (res_player1 > res_player2)
-		return WIN;
-	return DRAW;
+	shared_ptr<CGameRes>res(new CGameRes);
+	res->setRes(res_player1,res_player2);
+	return res;
 }
 
 unsigned CAddRemaind6::calCredit(const CPlayer& player)
