@@ -25,5 +25,6 @@ public:
     void initialize();
     //shared_ptr<Player> regPlayer(string name);
     void regPlayer(string name);
+    int findIndex(string name);
 };
 #endif /* DiceGamePlatform_h */
