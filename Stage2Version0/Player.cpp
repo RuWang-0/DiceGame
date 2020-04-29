@@ -31,6 +31,7 @@ void Player::play(Dice& dice){
 }
 
 void Player::showResult(){
+    cout <<"Player: "<<name<<"'s turn."<<endl;
     cout << "The first roll result: ";
     cout << rollResults.at(0)<<endl;
     cout << "The second roll result: ";
