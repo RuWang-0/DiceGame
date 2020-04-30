@@ -22,9 +22,9 @@ public:
         unsigned res1 = 0, res2 = 0;
         res1 = p1.getCurScore();
         res2 = p2.getCurScore();
-        if(res1 < res2){
+        if(res1 > res2){
             result.winer = p1.getName();
-        }else if(res1 > res2){
+        }else if(res1 < res2){
             result.winer = p2.getName();
         }else{
             result.winer = "DRAW";
